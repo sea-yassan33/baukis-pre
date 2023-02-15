@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 顧客管理システム　（baukis-pre）
 
-Things you may want to cover:
+##　説明
+企業向けの顧客管理システム（開発学習用サンプル）
 
-* Ruby version
+## 参考文献
+Ruby on Rails 6 実践ガイド（著：黒田努）
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##　開発環境
+- Ruby 2.6.5
+- Rails 6.0.6.1
+- PostgreSQL
