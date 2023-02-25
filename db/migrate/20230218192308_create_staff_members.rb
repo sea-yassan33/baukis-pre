@@ -9,8 +9,11 @@ class CreateStaffMembers < ActiveRecord::Migration[6.0]
       t.string    :hashed_password
       t.date      :start_date,       null: false
       t.date      :end_date
-      t.t.boolean :suspended,        null:false, default: false
+      t.boolean :suspended,        null:false, default: false
       t.timestamps
     end
+
+    add_index :staff_members, 'LOWER(email)', unique: true
+    add_index :staff_members, [ :family_name_kana, :given_name_kana]
   end
 end
