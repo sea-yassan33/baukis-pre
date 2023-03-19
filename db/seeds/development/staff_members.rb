@@ -5,5 +5,5 @@ StaffMember.create!(
   family_name_kana: 'テスト',
   given_name_kana: 'タロウ',
   password: 'password',
-  start_date: Date.today
+  start_date: Date.today,
 )
